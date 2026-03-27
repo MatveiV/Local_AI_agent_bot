@@ -1,0 +1,38 @@
+# Секреты — никогда не коммитить
+agent/.env
+.env
+
+# Виртуальное окружение
+agent/venv311/
+venv*/
+.venv/
+
+# Логи и рантайм данные
+agent/agent.log
+agent/memory.json
+agent/reminders.json
+agent/uploads/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Сгенерированные файлы
+*.png
+*.qr
+agent/main.json
+agent/test.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
